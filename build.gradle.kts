@@ -13,6 +13,13 @@ val fabricLanguageKotlin =
 val yarnBuild =
     Dependency.Minecraft.Version + "+build.${Dependency.Yarn.Build}"
 
+repositories {
+    maven {
+        url = uri("https://maven.terraformersmc.com")
+        name = "Terraformers MC"
+    }
+}
+
 dependencies {
     minecraft("com.mojang", "minecraft", Dependency.Minecraft.Version)
     mappings("net.fabricmc", "yarn", yarnBuild, null, "v2")

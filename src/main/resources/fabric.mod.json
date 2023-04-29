@@ -2,15 +2,15 @@
   "schemaVersion": 1,
   "id": "${mod_id}",
   "version": "${version}",
-  "name": "Fabric Mod Template",
-  "description": "Simple Mod Template for Fabric",
+  "name": "Warp Client",
+  "description": "Optimization Client Mod For Fabric",
   "authors": [
-    "Project Forceload"
+    "copecone", "noMoment"
   ],
   "contact": {
-    "homepage": "https://github.com/forceload",
-    "issues": "https://github.com/forceload/fabric-mod-template/issues",
-    "sources": "https://github.com/forceload/fabric-mod-template"
+    "homepage": "https://github.com/copecone",
+    "issues": "https://github.com/copecone/warp/issues",
+    "sources": "https://github.com/copecone/warp"
   },
   "license": "MIT License",
   "icon": "assets/${mod_id}/textures/icon.png",
@@ -19,7 +19,7 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "io.github.forceload.${mod_id}.SampleMod"
+        "value": "io.github.copecone.${mod_id}.WarpMod"
       }
     ]
   },

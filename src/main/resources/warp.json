@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "io.github.forceload.${mod_id}.mixins",
+  "package": "io.github.copecone.${mod_id}.mixins",
   "compatibilityLevel": "JAVA_${java}",
   "mixins": [],
   "client": [],
