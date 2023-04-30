@@ -6,5 +6,7 @@ import net.fabricmc.api.ModInitializer
 object WarpMod: ModInitializer {
     const val MOD_ID = "warp"
 
-    override fun onInitialize() {}
+    override fun onInitialize() {
+
+    }
 }
