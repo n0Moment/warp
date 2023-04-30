@@ -74,7 +74,7 @@ tasks {
         }
 
         filesMatching("**/*.json") {
-            expand(mutableMapOf("mod_id" to project.extra["mod_id"] as String))
+            expand(mutableMapOf("java" to Dependency.Java.Version, "mod_id" to project.extra["mod_id"] as String))
         }
     }
 
