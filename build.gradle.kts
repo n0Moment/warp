@@ -7,7 +7,7 @@ plugins {
 
 base { archivesName.set(project.extra["archives_base_name"] as String) }
 version = project.extra["mod_version"] as String
-group = project.extra["maven_group"] as String
+group = project.extra["maven_g  roup"] as String
 
 val fabricLanguageKotlin =
     project.extra["fabric_language_kotlin_version"] as String + "+kotlin.${Dependency.Kotlin.Version}"
@@ -36,6 +36,7 @@ dependencies {
 
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0-Beta")
     modImplementation("com.github.forceload:uilib:2a95cb42e3")
+
 }
 
 tasks {
