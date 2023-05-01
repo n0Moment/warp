@@ -1,6 +1,8 @@
 plugins {
     id("fabric-loom").version(Dependency.Loom.Version)
     kotlin("jvm").version(Dependency.Kotlin.Version)
+    id("com.github.johnrengelman.shadow") version "6.1.0"
+    id("maven-publish")
 }
 
 base { archivesName.set(project.extra["archives_base_name"] as String) }
