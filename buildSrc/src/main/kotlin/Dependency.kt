@@ -10,4 +10,6 @@ object Dependency {
     object Yarn { const val Build = 1 }
     object Minecraft { const val Version = "1.19.4" }
     object Loom { const val Version = "1.0-SNAPSHOT" }
+
+
 }
