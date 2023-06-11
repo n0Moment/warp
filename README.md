@@ -1,6 +1,5 @@
 # [Currently Supressed] Warp Client
-## A Utility Mod for Minecraft 1.19.4
-**(Waiting for 1.20 Update lol)**
+## Wa! 1.20 Released!!
 
 **Why I should use this Client?**
 > https://coming.soon
