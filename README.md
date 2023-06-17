@@ -17,5 +17,5 @@ This project is subject to the **[MIT License]** (In License).
 ## Thanks For
 [ZeroMemes](https://github.com/ZeroMemes) for [Alpine](https://github.com/ZeroMemes/Alpine) **(Litsener, Bus)**\n
 
-[SpaiR](https://github.com/SpaiR) for [imgui](https://github.com/kotlin-graphics/imgui) **(Gui Lib)**
+[SpaiR](https://github.com/SpaiR) for [imgui](https://github.com/SpaiR/imgui-java) **(Gui Lib)**
 **~~Rip forceload/UiLib~~**
