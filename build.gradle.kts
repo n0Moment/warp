@@ -39,9 +39,6 @@ dependencies {
     modImplementation("net.fabricmc", "fabric-language-kotlin", fabricLanguageKotlin)
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0-Beta")
     modImplementation("com.github.forceload:uilib:2a95cb42e3")
-    implementation("kotlin.graphics:imgui-core:1.79+05")
-    implementation("kotlin.graphics:imgui-gl:1.79+05")
-    implementation("kotlin.graphics:imgui-glfw:1.79+05")
 
 }
 
