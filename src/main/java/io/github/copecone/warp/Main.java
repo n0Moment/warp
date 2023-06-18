@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 
 public class Main implements ClientModInitializer {
     public static final MinecraftClient mc = MinecraftClient.getInstance();
-    public static final Logger LOGGER = LoggerFactory.getLogger("coolmod");
+    public static final Logger LOGGER = LoggerFactory.getLogger("Warp");
     public static final EventBus EVENT_BUS = new EventBus();
     public static final Boolean advancedDebug = false;
 
@@ -23,7 +23,11 @@ public class Main implements ClientModInitializer {
         LOGGER.info("Listening for TPS.");
         EVENT_BUS.register(DeathListener.INSTANCE);
         LOGGER.info("Listening for deaths.");
-        // EVENT_BUS.register(PacketListener.INSTANCE);
-        // LOGGER.info("Listening for packets.");
+        /**
+         * @deprecated
+         * Packet Listener
+         */
+        EVENT_BUS.register(PacketListener.INSTANCE);
+        LOGGER.info("Listening for packets.");
     }
 }

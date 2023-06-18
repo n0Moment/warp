@@ -12,15 +12,12 @@
     "issues": "https://github.com/copecone/warp/issues",
     "sources": "https://github.com/copecone/warp"
   },
-  "license": "MIT License",
+  "license": "MIT ",
   "icon": "assets/${mod_id}/textures/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": [
-      {
-        "adapter": "kotlin",
-        "value": "io.github.copecone.${mod_id}.Main"
-      }
+    "client": [
+      "io.github.copecone.warp.Main"
     ]
   },
 

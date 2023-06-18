@@ -2,7 +2,11 @@
   "required": true,
   "package": "io.github.copecone.${mod_id}.mixins",
   "compatibilityLevel": "JAVA_${java}",
-  "mixins": [],
+  "mixins": [
+    "ClientConnectionMixin",
+    "InGameHudMixin",
+    "TelemetryManagerMixin"
+  ],
   "client": [],
   "server": [],
   "injectors": {
