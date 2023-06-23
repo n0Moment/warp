@@ -13,7 +13,7 @@
     "sources": "https://github.com/copecone/warp"
   },
   "license": "MIT ",
-  "icon": "assets/${mod_id}/textures/icon.png",
+  "icon": "assets/${mod_id}/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
